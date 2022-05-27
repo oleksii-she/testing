@@ -1,10 +1,8 @@
 .about {
   padding-top: 5.4px;
-
   @media screen and (min-width: 768px) {
     padding-top: 69px;
   }
-
   @media screen and (min-width: 1280px) {
     padding-top: 111px;
   }
@@ -25,6 +23,7 @@
     margin-left: 31.79px;
   }
   @media screen and (min-width: 1280px) {
+    max-width: 382px;
     margin-left: 139.3px;
   }
 }
@@ -47,7 +46,7 @@
 .about_txt {
   font-size: 16px;
   line-height: 20px;
-  text-align: start;
+
   @media screen and (min-width: 1280px) {
     font-size: 18px;
     line-height: calc(22 / 18);
