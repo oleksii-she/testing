@@ -1,0 +1,170 @@
+.header-content {
+
+  @media screen and (max-width: 767px) {
+    padding-top: 8.2px;
+    margin-bottom: 30.72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  }
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  padding-top: 37.86px;
+  margin-bottom: 41.68px;
+  @media screen and (max-width: 1279px) {
+    padding-top: 35.58px;
+    margin-bottom: 15.6px;
+    justify-content: center;
+  }
+}
+.logo_link {
+  &:hover,
+  &:focus {
+    fill: var(--btn_color);
+  }
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+.logo__icon {
+  width: 158px;
+  height: 81.46px;
+  @media screen and (max-width: 1279px) {
+    width: 96px;
+    height: 47.81px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 96px;
+    height: 44.08px;
+  }
+}
+.nav_list {
+  display: flex;
+
+  margin-left: 162px;
+
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
+}
+.nav_item {
+  & + & {
+    margin-left: 20px;
+  }
+}
+.nav_link {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+
+  &:hover,
+  &:focus {
+    color: var(--btn_color);
+  }
+
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-open_btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  margin-left: 62px;
+
+  &:hover,
+  &:focus {
+    fill: var(--btn_color);
+  }
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1279px) {
+    display: none;
+  }
+}
+
+.menu {
+  display: block;
+}
+
+.menu_title {
+  font-family: 'Caveat Brush';
+  font-size: 30px;
+  line-height: calc(38 / 30);
+  margin-bottom: 8px;
+  text-align: start;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+ 
+  }
+  @media screen and (min-width: 1279px) {
+    font-size: 64px;
+    line-height: calc(65 / 64);
+    margin-bottom: 16px;
+  }
+}
+
+.pre-menu_title {
+  font-weight: 500;
+  font-size: 16px;
+line-height:calc(20/16);
+margin-bottom: 32px;
+ 
+  @media screen and (max-width: 767px) {
+    text-align: center;
+ 
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1279px) {
+    font-size: 24px;
+    line-height: calc(29 / 24);
+
+  }
+}
+
+.menu-register_btn {
+  padding: 8px 44px 7px 45px;
+  color: var(--white-color);
+  background-color: var(--btn_color);
+  margin-bottom: 32px;
+  cursor: pointer;
+
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-size: 24px;
+  line-height: calc(30 / 24);
+  border: inherit;
+  border-radius: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.social_list {
+  display: flex;
+  @media screen and (max-width: 767px) {
+justify-content: center;
+  }
+  
+}
+.social_item {
+  & + & {
+    margin-left: 16px;
+  }
+}
+.social_link {
+  &:hover,
+  &:focus {
+    fill: var(--btn_color);
+  }
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social_icon {
+  width: 16px;
+  height: 16px;
+}
