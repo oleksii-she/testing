@@ -35,8 +35,8 @@ body {
 .main_fon {
   @media screen and (max-width: 767px) {
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 129.69px 164.52px;
+    background-position: 0 0;
+    background-size: auto;
     background-image: url(../images/header_img_mob.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_mob_2x.png);
@@ -100,6 +100,7 @@ img {
   margin: -1px;
 }
 
+// 129.69px 164.52px;
 // url(../images/layer/layer_mob.png)
 // url(../images/layer/layer_next_mob_2x.png)
 // url(../images/layer/layer_next_table.png)
