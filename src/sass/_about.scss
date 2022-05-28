@@ -19,7 +19,11 @@
   }
 }
 .about-text_box {
+  @media screen and (min-width: 320px) {
+    max-width: 279px;
+  }
   @media screen and (min-width: 768px) {
+    max-width: 336px;
     margin-left: 31.79px;
   }
   @media screen and (min-width: 1280px) {
@@ -46,9 +50,40 @@
 .about_txt {
   font-size: 16px;
   line-height: 20px;
-
+  text-align: initial;
   @media screen and (min-width: 1280px) {
     font-size: 18px;
     line-height: calc(22 / 18);
   }
 }
+
+.check_text {
+  display: none;
+  &:checked .btn-hidden_text {
+    display: block;
+  }
+  &:checked ~ .checked_label .btn-show_text {
+    display: block;
+  }
+  &:checked ~ .checked_label .btn-show_text {
+    display: none;
+  }
+}
+
+.check-text_item {
+  display: none;
+}
+
+// .hidden {display: none;}
+// .show {display: inline-block;}
+
+// .check {display: none;}
+// .check:checked ~ .hidden {display: block;}
+// .check:checked ~ label .show {display: none;}
+// .check:checked ~ label .hidden {display: inline-block;}
+
+// .btn {
+//   background-color: #045acf;
+//   color: white; padding: 3px 10px;
+//   border-radius: 5px; cursor: pointer;
+// }
