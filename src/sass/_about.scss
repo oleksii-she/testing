@@ -57,21 +57,23 @@
   }
 }
 
-.check_text {
+.check-text_input {
   display: none;
-  &:checked .btn-hidden_text {
+  &:checked ~ .shov-hidden_text {
     display: block;
   }
-  &:checked ~ .checked_label .btn-show_text {
-    display: block;
-  }
-  &:checked ~ .checked_label .btn-show_text {
+  &:checked ~ .checked_label .show_text {
     display: none;
   }
+  &:checked ~ .checked_label .hidden_text {
+    display: inline-block;
+  }
 }
-
-.check-text_item {
+.hidden_text {
   display: none;
+}
+.show_text {
+  display: inline-block;
 }
 
 // .hidden {display: none;}

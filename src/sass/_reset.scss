@@ -36,7 +36,7 @@ body {
   @media screen and (max-width: 767px) {
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: auto;
+    background-size: 129.69px 164.52px;
     background-image: url(../images/header_img_mob.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_mob_2x.png);
@@ -45,7 +45,7 @@ body {
   @media screen and (min-width: 768px) {
     background-repeat: no-repeat no-repeat;
     background-position: top right 20%;
-    background-size: auto;
+    background-size: 377.89px 396px;
     background-image: url(../images/header_img_table.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_table_2x.png);
@@ -54,7 +54,7 @@ body {
   @media screen and (min-width: 1280px) {
     background-repeat: no-repeat no-repeat;
     background-position: top right, left 501px;
-    background-size: auto, auto;
+    background-size: 793px 831px, 178.04px 421.14px;
     background-image: url(../images/header_img.png), url(../images/spoon.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_2x.png), url(../images/spoon_2x.png);
