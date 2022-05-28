@@ -58,6 +58,7 @@ body {
     background-image: url(../images/header_img.png), url(../images/spoon.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_2x.png), url(../images/spoon_2x.png);
+      background-size: contain, 178.04px 421.14px;
     }
   }
 }
