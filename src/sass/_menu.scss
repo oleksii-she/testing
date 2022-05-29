@@ -15,9 +15,6 @@
   @media screen and (min-width: 1280px) {
     display: none;
   }
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
 
   background: rgba(254, 243, 228, 0.9);
   backdrop-filter: blur(4px);
@@ -26,9 +23,6 @@
   transition: transform 250ms linear;
   &.is-hidden {
     transform: translateX(-100%);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
   }
 }
 
