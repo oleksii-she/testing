@@ -1,27 +1,28 @@
 .header-content {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 30.72px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 35.58px;
+    text-align: inherit;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 37.86px;
+    text-align: inherit;
   }
 }
 
 .nav-content {
   display: flex;
   align-items: center;
-  padding-top: 37.86px;
   margin-bottom: 41.68px;
   @media screen and (max-width: 1279px) {
-    padding-top: 35.58px;
     margin-bottom: 15.6px;
-    justify-content: center;
   }
-  @media screen and (max-width: 1279px) {
-    padding-top: 35.58px;
-    margin-bottom: 15.6px;
+  @media screen and (max-width: 767px) {
     justify-content: center;
+    margin-bottom: 30.72px;
   }
 }
 
@@ -69,7 +70,7 @@
   }
 
   cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms $animation-timing-function;
 }
 .menu-open_btn {
   position: absolute;
