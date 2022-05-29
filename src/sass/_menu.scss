@@ -29,7 +29,24 @@
 .menu-conteiner {
   text-align: center;
 }
+.menu-open_btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  margin-left: 62px;
 
+  &:hover,
+  &:focus {
+    fill: var(--btn_color);
+  }
+  cursor: pointer;
+  transition: fill 250ms $animation-timing-function;
+  @media screen and (min-width: 1279px) {
+    display: none;
+  }
+}
 .menu-close_btn {
   position: absolute;
   top: 20px;

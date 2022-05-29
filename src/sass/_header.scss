@@ -26,14 +26,6 @@
   }
 }
 
-.logo_link {
-  &:hover,
-  &:focus {
-    fill: var(--btn_color);
-  }
-  cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .logo__icon {
   width: 158px;
   height: 81.46px;
@@ -71,24 +63,6 @@
 
   cursor: pointer;
   transition: color 250ms $animation-timing-function;
-}
-.menu-open_btn {
-  position: absolute;
-  top: 16px;
-  right: 20px;
-  background-color: transparent;
-  border: none;
-  margin-left: 62px;
-
-  &:hover,
-  &:focus {
-    fill: var(--btn_color);
-  }
-  cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  @media screen and (min-width: 1279px) {
-    display: none;
-  }
 }
 
 .menu {
