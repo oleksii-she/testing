@@ -54,11 +54,11 @@ body {
   @media screen and (min-width: 1280px) {
     background-repeat: no-repeat no-repeat;
     background-position: top right, left 501px;
-    background-size: auto, 178.04px 421.14px;
+    background-size: auto, auto;
     background-image: url(../images/header_img.png), url(../images/spoon.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../images/header_img_2x.png), url(../images/spoon_2x.png);
-      background-size: contain, 178.04px 421.14px;
+      background-size: 705px 658px, 148.04px 381.14px;
     }
   }
 }
