@@ -52,10 +52,13 @@
 }
 
 .nav_item {
-  & + & {
-    margin-left: 20px;
+  @media screen and (min-width: 1280px) {
+    & + & {
+      margin-left: 20px;
+    }
   }
 }
+
 .nav_link {
   font-size: 18px;
   line-height: calc(22 / 18);
