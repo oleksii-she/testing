@@ -38,15 +38,19 @@
     height: 44.08px;
   }
 }
-.nav_list {
-  display: flex;
 
-  margin-left: 162px;
+.nav_list {
+  @media screen and (min-width: 1280px) {
+    display: flex;
+
+    margin-left: 162px;
+  }
 
   @media screen and (max-width: 1279px) {
     display: none;
   }
 }
+
 .nav_item {
   & + & {
     margin-left: 20px;
