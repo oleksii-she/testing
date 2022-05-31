@@ -39,12 +39,10 @@
   }
 }
 
-.nav_list {
-  @media screen and (min-width: 1280px) {
-    display: flex;
+.menu {
+  display: flex;
 
-    margin-left: 162px;
-  }
+  margin-left: 162px;
 
   @media screen and (max-width: 1279px) {
     display: none;
@@ -70,10 +68,6 @@
 
   cursor: pointer;
   transition: color 250ms $animation-timing-function;
-}
-
-.menu {
-  display: block;
 }
 
 .menu_title {
