@@ -42,8 +42,6 @@
 .menu {
   display: flex;
 
-  margin-left: 162px;
-
   @media screen and (max-width: 1279px) {
     display: none;
   }
