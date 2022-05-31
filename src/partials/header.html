@@ -4,23 +4,29 @@
             <a href="./" class="logo_link"><svg class="logo__icon">
                     <use href="./images/sprite.svg#icon-logo"></use>
                 </svg></a>
-            <button type="button" class="menu_btn" id="hamb">
-                <svg width="16" height="16">
-                    <use href="./images/sprite.svg#icon-menu" class="menu-icon_btn--open"></use>
-                    <use href="./images/spritee.svg#icon-close-menu-btn" class="menu-icon_btn--close "></use>
-                </svg>
-            </button>
+
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+
             <nav>
-                <ul class="nav_list " id="menu">
+                <ul class="nav_list" id="menu">
+                    <li class="logo-mobile"><a href="#" class="logo-mobile"><svg width="190" height="85">
+                                <use href="./images/spritee.svg#icon-logo"></use>
+                            </svg></a> </li>
                     <li class="nav_item "><a href="#about" class="nav_link">About us</a></li>
                     <li class="nav_item"><a href="#program" class="nav_link">Program</a></li>
                     <li class="nav_item"><a href="#reviews" class="nav_link">Reviews</a></li>
                     <li class="nav_item"><a href="#reviews" class="nav_link">Contacts</a></li>
                 </ul>
+
             </nav>
-            <div class="popup" id="popup"> <a href="#"><svg width="190" height="85">
-                        <use href="./images/spritee.svg#icon-logo"></use>
-                    </svg></a></div>
+            <div class="popup" id="popup"></div>
+
 
 
         </div>
