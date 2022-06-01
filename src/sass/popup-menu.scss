@@ -109,13 +109,21 @@ body.noscroll {
   padding: 10px 20px;
   cursor: pointer;
 }
+.hamb__field {
+  cursor: pointer;
+  padding: 5px;
+}
 .bar {
   display: block;
   width: 30px;
   height: 2px;
   margin: 5px auto;
   background-color: rgba(46, 37, 32, 1);
-  transition: 0.2s;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+.hamb__field.active .bar {
+  width: 18px;
 }
 
 .hamb__field.active .bar:nth-child(2) {
@@ -123,11 +131,13 @@ body.noscroll {
 }
 
 .hamb__field.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  top: 0;
+  transform: translateY(7px) rotate(45deg);
 }
 
 .hamb__field.active .bar:nth-child(3) {
-  transform: translateY(-4px) rotate(-40deg);
+  bottom: 0;
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .logo-mobile {
