@@ -173,6 +173,7 @@ body.noscroll {
   width: 100%;
   position: absolute;
   height: 2px;
+  border-radius: 1px;
   background: rgba(46, 37, 32, 1);
   display: block;
   transition: 0.3s;
@@ -180,7 +181,7 @@ body.noscroll {
 .burger-design:before {
   content: '';
   top: -8px;
-  border-radius: 1px;
+
   transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .burger-design {
@@ -189,7 +190,7 @@ body.noscroll {
 .burger-design:after {
   content: '';
   bottom: -8px;
-  border-radius: 1px;
+
   transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -197,7 +198,7 @@ body.noscroll {
   content: '';
   top: 0px;
   transform: rotate(45deg);
-  border-radius: 1px;
+
   transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .burger-design.active:after {
