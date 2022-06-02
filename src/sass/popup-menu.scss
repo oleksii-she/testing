@@ -92,38 +92,54 @@ body.noscroll {
   @media screen and (min-width: 768px) {
   }
 }
-// .hamb {
-//   position: absolute;
-//   top: 16px;
-//   right: 20px;
-//   z-index: 9999;
-//   @media screen and (min-width: 786px) {
-//     top: 39px;
-//     right: 32px;
-//   }
-//   @media screen and (min-width: 1280px) {
-//     display: none;
-//   }
-// }
+.hamb {
+  position: absolute;
+  z-index: 999;
+  top: 16px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  @media (min-width: $tablet-breakpoint) {
+    top: 32px;
+    right: 35px;
+  }
+  @media (min-width: $desktop-breakpoint) {
+    display: none;
+  }
+  transform: scale(1);
+  transition: transform 250ms $animation-timing-function;
+  &:hover,
+  &:focus {
+    transform: scale(1.15);
+    animation-name: menuStyle;
+    animation-duration: 2500ms;
+    animation-timing-function: linear;
+  }
+}
 .hamb__field {
   padding: 10px 20px;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    transform: scale(1.15);
+    animation-name: menuStyle;
+    animation-duration: 2500ms;
+    animation-timing-function: linear;
+  }
 }
-.hamb__field {
-  cursor: pointer;
-  padding: 5px;
-}
+
 .bar {
   display: block;
   width: 30px;
   height: 2px;
   margin: 5px auto;
   background-color: rgba(46, 37, 32, 1);
-  border-radius: 1px;
+  border-radius: 2px;
   transition: 0.3s;
 }
 .hamb__field.active .bar {
-  width: 18px;
+  width: 20px;
 }
 
 .hamb__field.active .bar:nth-child(2) {
