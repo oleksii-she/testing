@@ -161,11 +161,18 @@ body.noscroll {
   position: absolute;
   right: 16px;
   top: 20px;
-  width: 30px;
 
+  width: 30px;
   height: 16px;
   z-index: 999;
   cursor: pointer;
+  @media screen and (min-width: 786px) {
+    top: 39px;
+    right: 32px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
 
 .burger-design,
